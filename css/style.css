@@ -3607,6 +3607,11 @@ body.anita-unload.anita-show-menu .anita-nav {
     text-align: center;
 }
 
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+}
+
 
 @media only screen and (max-width: 1000px) {
     .frame {
@@ -3615,4 +3620,22 @@ body.anita-unload.anita-show-menu .anita-nav {
             margin-left: 0px;
             margin-top: 2px;
         }
+
+      .contact{
+        width: 70%;
+        padding-left: 70px;
+      }
+}
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media screen and (max-width: 600px) {
+    .contact{
+           display:flex;
+           flex-direction: column;
+        }
+
+     .contact-form{
+        display: flex;
+        flex-direction: column;
+     }   
 }
