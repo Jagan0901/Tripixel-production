@@ -3612,14 +3612,13 @@ body.anita-unload.anita-show-menu .anita-nav {
     flex-direction: row;
 }
 
+.home-gallery{
+    cursor: pointer;
+}
+
 
 @media only screen and (max-width: 1000px) {
-    .frame {
-            width: 100%;
-            height: 300px;
-            margin-left: 0px;
-            margin-top: 2px;
-        }
+
 
       .contact{
         width: 70%;
@@ -3639,3 +3638,45 @@ body.anita-unload.anita-show-menu .anita-nav {
         flex-direction: column;
      }   
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .frame {
+            width: 100%;
+            height: 300px;
+            margin-left: 0px;
+            margin-top: 5px;
+        }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .frame {
+            width: 100%;
+            height: 300px;
+            margin-left: 0px;
+            margin-top: 5px;
+        }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .frame {
+            width: 95.8%;
+            height: 300px;
+            margin-left: 15px;
+            /* padding-right: 20px; */
+            margin-top: 5px;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .frame {
+            width: 97%;
+            height: 300px;
+            margin-left: 15px;
+            margin-top: 5px;
+        }
+}
+

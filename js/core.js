@@ -27,7 +27,10 @@ const anita_config = {
     Home: "index.html",
     Galleries: {
       Foods: "foods.html",
-      Products: "product.html",
+      Architecture: "architecture.html",
+      Commercials: "commercials.html",
+      Events: "events.html",
+      Products: "product.html"
       // 'Slider': {
       //     'Parallax Movement': 'albums-slider-parallax.html',
       //     'Fade Sliding': 'albums-slider-fade.html',
@@ -50,13 +53,10 @@ const anita_config = {
       //     'Masonry: 4 Columns': 'albums-masonry-4col.html'
       // },
       // 'Justified': 'albums-justified.html',
-      Events: "events.html",
-      Commercials: "commercials.html",
-      Architecture: "architecture.html",
     },
     About: "page-about.html",
     Testimonials: "page-testimonials.html",
-    Services: 'page-services.html',
+    Services: "page-services.html",
     // 'Testimonials': 'page-testimonials.html',
     Contacts: "page-contacts.html",
   },
